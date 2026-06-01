@@ -1,244 +1,43 @@
 <!doctype html>
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AloGo Smart Travel | Global Landing Page</title>
-    <meta name="description" content="AloGo Smart Travel — a refined, secure and multilingual travel experience for riders and drivers." />
-    <meta name="theme-color" content="#073f34" />
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <meta property="og:title" content="AloGo Smart Travel" />
-    <meta property="og:description" content="Smart travel, elegant matching and a global multilingual experience." />
-    <meta property="og:image" content="assets/alogo-brand-scene.jpg" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <canvas class="particle-canvas" aria-hidden="true"></canvas>
-    <div class="page-glow" aria-hidden="true"></div>
-
-    <header class="site-header" id="top">
-      <a class="brand" href="#top" aria-label="AloGo home">
-        <img src="assets/favicon.png" alt="AloGo Smart Travel logo" />
-        <span>AloGo</span>
-      </a>
-
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#experience" data-i18n="navExperience">التجربة</a>
-        <a href="#services" data-i18n="navServices">الخدمات</a>
-        <a href="#safety" data-i18n="navSafety">الأمان</a>
-        <a href="#app" data-i18n="navApp">التطبيق</a>
-      </nav>
-
-      <div class="header-actions">
-        <select class="language-select" id="languageSelect" aria-label="Change language">
-          <option value="ar">العربية</option>
-          <option value="en">English</option>
-          <option value="fr">Français</option>
-          <option value="de">Deutsch</option>
-          <option value="es">Español</option>
-          <option value="tr">Türkçe</option>
-          <option value="ro">Română</option>
-        </select>
-        <a class="header-cta" href="#contact" data-i18n="headerCta">ابدأ الآن</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero section-pad">
-        <div class="hero-copy reveal">
-          <p class="eyebrow"><span></span><b data-i18n="heroEyebrow">منصة سفر ذكية متعددة اللغات</b></p>
-          <h1 data-i18n="heroTitle">AloGo يجعل الرحلة تبدو فاخرة من أول ضغطة.</h1>
-          <p class="hero-subtitle" data-i18n="heroSubtitle">موقع عالمي أنيق يعرض قوة التطبيق: رحلات ذكية، مشاركة سفر، أمان، وسهولة استخدام لكل بلد ولكل لغة.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#app" data-i18n="heroPrimary">استكشف التطبيق</a>
-            <a class="btn secondary" href="#services" data-i18n="heroSecondary">شاهد المزايا</a>
-          </div>
-          <div class="hero-stats" aria-label="AloGo highlights">
-            <div><strong>7+</strong><span data-i18n="statLanguages">لغات</span></div>
-            <div><strong>24/7</strong><span data-i18n="statSafety">تجربة آمنة</span></div>
-            <div><strong>∞</strong><span data-i18n="statGlobal">جاهز للعالم</span></div>
-          </div>
-        </div>
-
-        <div class="hero-visual reveal" aria-label="AloGo visual identity">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="logo-stage">
-            <div class="logo-halo"></div>
-            <img src="assets/alogo-logo-card.jpg" alt="AloGo Smart Travel logo" class="main-logo" />
-          </div>
-          <div class="route-card card-top">
-            <span class="pin start"></span>
-            <div>
-              <strong data-i18n="floatingFrom">من المدينة</strong>
-              <small data-i18n="floatingSmart">مطابقة ذكية</small>
-            </div>
-          </div>
-          <div class="route-card card-bottom">
-            <span class="pin end"></span>
-            <div>
-              <strong data-i18n="floatingTo">إلى الوجهة</strong>
-              <small data-i18n="floatingSecure">رحلة أكثر اطمئنانًا</small>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="marquee-wrap" aria-label="Brand promise">
-        <div class="marquee">
-          <span data-i18n="marqueeOne">تصميم عالمي</span>
-          <span data-i18n="marqueeTwo">تجربة ذكية</span>
-          <span data-i18n="marqueeThree">تغيير لغات فوري</span>
-          <span data-i18n="marqueeFour">واجهة فاخرة</span>
-          <span data-i18n="marqueeFive">ثقة وأمان</span>
-          <span data-i18n="marqueeSix">AloGo Smart Travel</span>
-        </div>
-      </section>
-
-      <section class="experience section-pad" id="experience">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span><b data-i18n="experienceEyebrow">هوية AloGo</b></p>
-          <h2 data-i18n="experienceTitle">موقع يشعر الزائر أن AloGo علامة عالمية منذ أول ثانية.</h2>
-          <p data-i18n="experienceText">الشعار في المركز، الألوان من هويتك الحالية، والحركة محسوبة: أخضر داكن، توهج ذكي، مسارات سفر، وبطاقات زجاجية أنيقة.</p>
-        </div>
-
-        <div class="showcase-grid">
-          <article class="showcase-card reveal big-card">
-            <div class="card-icon">✦</div>
-            <h3 data-i18n="identityTitle">الشعار أولًا</h3>
-            <p data-i18n="identityText">تم بناء الواجهة حول شعارك الحالي، مع تقديمه بطريقة فاخرة بدل وضعه كصورة عادية.</p>
-          </article>
-          <article class="showcase-card reveal">
-            <div class="card-icon">🌍</div>
-            <h3 data-i18n="globalTitle">حضور عالمي</h3>
-            <p data-i18n="globalText">لغة الموقع تتغير فورًا مع دعم اتجاه الكتابة العربي واللاتيني.</p>
-          </article>
-          <article class="showcase-card reveal">
-            <div class="card-icon">✨</div>
-            <h3 data-i18n="premiumTitle">أناقة مدهشة</h3>
-            <p data-i18n="premiumText">تدرجات، إضاءة، زجاج، وخطوط واضحة تجعل الموقع جذابًا بدون فوضى.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="services section-pad" id="services">
-        <div class="section-heading reveal compact">
-          <p class="eyebrow"><span></span><b data-i18n="servicesEyebrow">ما يقدمه AloGo</b></p>
-          <h2 data-i18n="servicesTitle">كل ما يحتاجه المسافر والسائق في تجربة واحدة.</h2>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card reveal">
-            <span>01</span>
-            <h3 data-i18n="serviceRideTitle">رحلات ذكية</h3>
-            <p data-i18n="serviceRideText">عرض واضح للوجهة والسعر والتوقيت مع تجربة سلسة للمستخدم.</p>
-          </article>
-          <article class="service-card reveal">
-            <span>02</span>
-            <h3 data-i18n="serviceCarpoolTitle">مشاركة السفر</h3>
-            <p data-i18n="serviceCarpoolText">ربط المسافرين والسائقين بطريقة مرتبة ومناسبة للمسافات الطويلة والقصيرة.</p>
-          </article>
-          <article class="service-card reveal">
-            <span>03</span>
-            <h3 data-i18n="serviceChatTitle">تواصل مباشر</h3>
-            <p data-i18n="serviceChatText">واجهة تواصل أنيقة بين الطرفين لتأكيد التفاصيل قبل الرحلة.</p>
-          </article>
-          <article class="service-card reveal">
-            <span>04</span>
-            <h3 data-i18n="serviceMarketTitle">فرص أوسع</h3>
-            <p data-i18n="serviceMarketText">مساحة قابلة للتطوير لخدمات السفر والطلبات والعروض المستقبلية.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="journey section-pad">
-        <div class="phone-mock reveal">
-          <div class="phone-top"></div>
-          <img src="assets/alogo-brand-scene.jpg" alt="AloGo brand preview inside mobile screen" />
-          <div class="phone-panel">
-            <strong data-i18n="phoneTitle">رحلتك جاهزة</strong>
-            <span data-i18n="phoneText">مطابقة ذكية • لغة مناسبة • تجربة آمنة</span>
-          </div>
-        </div>
-        <div class="journey-copy reveal">
-          <p class="eyebrow"><span></span><b data-i18n="journeyEyebrow">رحلة مصممة بعناية</b></p>
-          <h2 data-i18n="journeyTitle">من الدخول إلى الحجز، كل خطوة تبدو واضحة وسريعة.</h2>
-          <div class="timeline">
-            <div><b data-i18n="stepOneTitle">اختر اللغة</b><p data-i18n="stepOneText">الموقع يتغير فورًا حسب لغة الزائر.</p></div>
-            <div><b data-i18n="stepTwoTitle">افهم الخدمة</b><p data-i18n="stepTwoText">أقسام قصيرة، قوية، ومباشرة توضح AloGo بسرعة.</p></div>
-            <div><b data-i18n="stepThreeTitle">انتقل للتطبيق</b><p data-i18n="stepThreeText">دعوات واضحة للتحميل أو التسجيل أو التواصل.</p></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="safety section-pad" id="safety">
-        <div class="security-panel reveal">
-          <div class="shield">✓</div>
-          <div>
-            <p class="eyebrow"><span></span><b data-i18n="safetyEyebrow">ثقة قبل كل رحلة</b></p>
-            <h2 data-i18n="safetyTitle">أمان واضح، تجربة هادئة، ورسالة احترافية للمستخدمين.</h2>
-            <p data-i18n="safetyText">الموقع يبرز قيم الثقة: حسابات واضحة، تواصل داخل التطبيق، معلومات رحلة مرتبة، وتجربة مصممة لتقليل التردد.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="language-world section-pad">
-        <div class="section-heading reveal compact">
-          <p class="eyebrow"><span></span><b data-i18n="languageEyebrow">تغيير اللغات</b></p>
-          <h2 data-i18n="languageTitle">نفس الجمال في كل لغة.</h2>
-          <p data-i18n="languageText">العربية، الإنجليزية، الفرنسية، الألمانية، الإسبانية، التركية، والرومانية — مع اتجاه عربي صحيح وواجهة متوازنة.</p>
-        </div>
-        <div class="language-pills reveal" aria-label="Supported languages">
-          <button data-lang="ar">العربية</button>
-          <button data-lang="en">English</button>
-          <button data-lang="fr">Français</button>
-          <button data-lang="de">Deutsch</button>
-          <button data-lang="es">Español</button>
-          <button data-lang="tr">Türkçe</button>
-          <button data-lang="ro">Română</button>
-        </div>
-      </section>
-
-      <section class="app section-pad" id="app">
-        <div class="app-card reveal">
-          <div>
-            <p class="eyebrow"><span></span><b data-i18n="appEyebrow">جاهز للنشر</b></p>
-            <h2 data-i18n="appTitle">صفحة هبوط يمكن رفعها مباشرة على موقع AloGo.</h2>
-            <p data-i18n="appText">الكود خفيف، سريع، متجاوب، وبدون اعتماد على مكتبات خارجية. يناسب GitHub Pages أو cPanel أو أي استضافة ثابتة.</p>
-          </div>
-          <div class="app-actions">
-            <a class="btn primary" href="#contact" data-i18n="appPrimary">اطلب الانضمام</a>
-            <a class="btn secondary" href="https://www.alogo.online" rel="noreferrer" data-i18n="appSecondary">زيارة الموقع</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact section-pad" id="contact">
-        <div class="contact-card reveal">
-          <div>
-            <p class="eyebrow"><span></span><b data-i18n="contactEyebrow">تواصل</b></p>
-            <h2 data-i18n="contactTitle">اجعل AloGo يظهر للعالم كما يستحق.</h2>
-            <p data-i18n="contactText">ضع بريدك وروابط التحميل لاحقًا، أو اربط الأزرار مباشرة بمتاجر التطبيقات عند الإطلاق.</p>
-          </div>
-          <form class="contact-form" action="mailto:hello@alogo.online" method="post" enctype="text/plain">
-            <input type="text" name="name" data-i18n-placeholder="namePlaceholder" placeholder="الاسم" />
-            <input type="email" name="email" data-i18n-placeholder="emailPlaceholder" placeholder="البريد الإلكتروني" />
-            <textarea name="message" data-i18n-placeholder="messagePlaceholder" placeholder="رسالتك"></textarea>
-            <button type="submit" data-i18n="sendButton">إرسال</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="brand footer-brand">
-        <img src="assets/favicon.png" alt="AloGo logo" />
-        <span>AloGo</span>
-      </div>
-      <p data-i18n="footerText">AloGo Smart Travel — موقع عالمي أنيق مبني حول شعارك وهويتك.</p>
-      <a href="#top" data-i18n="backTop">العودة للأعلى</a>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AloGo — Premium Mobility Platform</title>
+<meta name="description" content="AloGo is a premium ride, carpool and delivery platform.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html"><span>A</span>AloGo</a>
+  <nav><a href="#platform" data-i18n="platform">Platform</a><a href="#safety" data-i18n="safety">Safety</a><a href="privacy.html" data-i18n="privacy">Privacy</a><a href="support.html" data-i18n="support">Support</a></nav>
+  <select id="lang"><option value="en">English</option><option value="ar">العربية</option><option value="fr">Français</option><option value="es">Español</option><option value="ro">Română</option><option value="tr">Türkçe</option></select>
+</header>
+<main>
+<section class="hero">
+  <div>
+    <p class="eyebrow" data-i18n="eyebrow">Global mobility, designed beautifully</p>
+    <h1 data-i18n="title">Move smarter with AloGo.</h1>
+    <p class="lead" data-i18n="lead">A premium platform for rides, carpooling, delivery and driver operations — built around safety, clarity and speed.</p>
+    <div class="cta"><a class="btn primary" href="support.html" data-i18n="contact">Contact support</a><a class="btn" href="privacy.html" data-i18n="read">Read privacy</a></div>
+    <div class="metrics"><div><b>24/7</b><small data-i18n="m1">support</small></div><div><b>GPS</b><small data-i18n="m2">smart routes</small></div><div><b>OTP</b><small data-i18n="m3">secure access</small></div></div>
+  </div>
+  <div class="phone-wrap"><div class="phone"><img src="assets/app-preview.jpeg" alt="AloGo app preview"></div></div>
+</section>
+<section id="platform" class="section">
+  <p class="eyebrow" data-i18n="one">One platform</p><h2 data-i18n="everything">Everything mobility needs.</h2>
+  <div class="cards">
+    <article><i>↗</i><h3 data-i18n="rides">Rides</h3><p data-i18n="rides_t">Connect riders with nearby drivers through a modern experience.</p></article>
+    <article><i>◌</i><h3 data-i18n="carpool">Carpool</h3><p data-i18n="carpool_t">Share everyday routes and reduce travel cost with trusted people nearby.</p></article>
+    <article><i>▣</i><h3 data-i18n="delivery">Delivery</h3><p data-i18n="delivery_t">Support local delivery operations with tracking and communication.</p></article>
+    <article><i>✓</i><h3 data-i18n="ops">Operations</h3><p data-i18n="ops_t">Production-ready privacy, support, security and scalable workflows.</p></article>
+  </div>
+</section>
+<section id="safety" class="section split">
+  <div><p class="eyebrow" data-i18n="trust">Trust first</p><h2 data-i18n="safe_title">Safety, privacy and support from day one.</h2></div>
+  <div class="list"><p data-i18n="safe1">01 — Account verification before sensitive actions.</p><p data-i18n="safe2">02 — Location and trip data handled with clear purpose.</p><p>03 — support@alogo.online</p></div>
+</section>
+<section class="download"><p class="eyebrow" data-i18n="soon">Coming soon</p><h2 data-i18n="launch">AloGo is preparing for launch.</h2><p data-i18n="store">Store links will be added here when available.</p><div><span>Google Play</span><span>App Store</span></div></section>
+</main>
+<footer><b>AloGo</b><span>© 2026 AloGo</span><a href="privacy.html">Privacy</a><a href="support.html">Support</a></footer>
+<script src="translations.js"></script><script src="script.js"></script>
+</body></html>

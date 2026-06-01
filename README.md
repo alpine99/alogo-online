@@ -1,10 +1,3 @@
-# AloGo Website
+# AloGo Premium Website v2
 
-Static website for alogo.online with multilingual homepage, privacy policy, and support page.
-
-Pages:
-- `/` homepage
-- `/privacy.html` privacy policy
-- `/support.html` support
-
-Ready for GitHub Pages, Netlify, Vercel, or any static host.
+Upload contents to GitHub Pages root. Keep CNAME.
