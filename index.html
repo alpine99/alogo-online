@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AloGo — Ride, carpool, and connect</title>
+  <meta name="description" content="AloGo is a modern mobility platform for riders and drivers." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="./index.html" aria-label="AloGo home">
+      <img src="./assets/icon.png" alt="AloGo" onerror="this.style.display='none'" />
+      <span>AloGo</span>
+    </a>
+    <nav>
+      <a data-i18n="navHome" href="./index.html">Home</a>
+      <a data-i18n="navPrivacy" href="./privacy.html">Privacy</a>
+      <a data-i18n="navSupport" href="./support.html">Support</a>
+      <select id="languageSelect" aria-label="Language">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="tr">Türkçe</option>
+        <option value="ro">Română</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="heroText">
+        <p class="eyebrow" data-i18n="eyebrow">Modern mobility for everyday trips</p>
+        <h1 data-i18n="homeTitle">Ride, carpool, and connect with AloGo.</h1>
+        <p data-i18n="homeIntro">AloGo helps riders find nearby drivers, communicate safely, and manage trips with a simple, modern experience.</p>
+        <div class="actions">
+          <a class="button primary" href="./support.html" data-i18n="contactSupport">Contact support</a>
+          <a class="button" href="./privacy.html" data-i18n="readPrivacy">Read privacy policy</a>
+        </div>
+      </div>
+      <div class="phoneCard" aria-label="AloGo app preview">
+        <div class="phoneTop"></div>
+        <div class="mapMock">
+          <div class="pin p1"></div><div class="pin p2"></div><div class="pin p3"></div>
+          <div class="route"></div>
+        </div>
+        <div class="sheetMock">
+          <strong>AloGo</strong>
+          <span data-i18n="homeMock">Nearby drivers, live map, secure chat.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card"><h2 data-i18n="feature1Title">Live map</h2><p data-i18n="feature1Text">View nearby vehicles and choose the type that fits your trip.</p></article>
+      <article class="card"><h2 data-i18n="feature2Title">Driver connection</h2><p data-i18n="feature2Text">Chat with drivers and manage your ride in a clear interface.</p></article>
+      <article class="card"><h2 data-i18n="feature3Title">Privacy aware</h2><p data-i18n="feature3Text">We use location and account data only to provide core mobility features and safety.</p></article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> AloGo. <span data-i18n="rights">All rights reserved.</span></p>
+  </footer>
+  <script src="./translations.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
