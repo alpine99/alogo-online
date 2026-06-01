@@ -1,0 +1,10 @@
+{
+  "name": "AloGo Smart Travel",
+  "short_name": "AloGo",
+  "icons": [
+    { "src": "assets/favicon.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#04724d",
+  "background_color": "#fbfffd",
+  "display": "standalone"
+}
