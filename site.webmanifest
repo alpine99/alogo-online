@@ -1,13 +1,1 @@
-{
-  "name": "AloGo Smart Travel",
-  "short_name": "AloGo",
-  "description": "Smart travel app with live maps, chat, rides and moving services.",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#009f64",
-  "icons": [
-    {"src": "favicon.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "alogo-logo-card.png", "sizes": "512x512", "type": "image/png"}
-  ]
-}
+{"name":"AloGo","short_name":"AloGo","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#0aa566","icons":[{"src":"alogo-app-icon.png","sizes":"512x512","type":"image/png"}]}

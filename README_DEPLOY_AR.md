@@ -1,33 +1,19 @@
-# AloGo World-Class Website V4
+# رفع موقع AloGo على GitHub Pages
 
-هذه النسخة جاهزة للرفع على GitHub Pages.
+1. فك الضغط عن الملف.
+2. ارفع الملفات الموجودة داخل المجلد مباشرة إلى مستودع GitHub، وليس ملف ZIP نفسه.
+3. تأكد أن index.html موجود مباشرة في جذر المستودع.
+4. من Settings > Pages اختر Deploy from a branch ثم main و /root.
+5. الدومين مضبوط في ملف CNAME على: www.alogo.online
 
-## ما الجديد في V4
+للتجربة المحلية:
 
-- واجهة الهاتف داخل الموقع لم تعد صورة ثابتة فقط؛ أصبحت HTML/CSS ديناميكية وتترجم مع تغيير اللغة.
-- شعار AloGo موجود من الصورة الأصلية.
-- لا توجد أسعار، فيزا، مقاعد، أو تواريخ في واجهة التطبيق.
-- تم استخدام كلمة Car بدل Sedan.
-- البريد الرسمي موجود: support@alogo.online
-- واتساب ليس في أول الصفحة، وموجود فقط في صفحة الدعم.
-- دعم اللغات: English, العربية, Français, Deutsch, Español, Türkçe, Română.
-- دعم RTL للعربية.
-- ملفات عالمية مضافة: CNAME, robots.txt, sitemap.xml, site.webmanifest, privacy.html, support.html.
+```bash
+python3 -m http.server 5500
+```
 
-## طريقة الرفع
+ثم افتح:
 
-1. فك الضغط عن الملف ZIP.
-2. افتح المجلد الناتج.
-3. ارفع الملفات نفسها إلى GitHub، وليس المجلد وليس ملف ZIP.
-4. يجب أن يكون index.html ظاهرًا مباشرة في الصفحة الرئيسية للمستودع.
-5. انتظر GitHub Pages حتى ينتهي النشر.
-
-## الدومين
-
-ملف CNAME يحتوي على:
-
-www.alogo.online
-
-إذا كنت تريد الدومين بدون www، غيّر محتوى CNAME إلى:
-
-alogo.online
+```text
+http://localhost:5500
+```
