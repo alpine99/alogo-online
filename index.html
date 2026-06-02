@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AloGo — منصة تنقل ذكية عالمية</title>
+  <meta name="description" content="AloGo منصة تنقل ذكية للركاب والسائقين وأصحاب البيك أب: خريطة مباشرة، رحلات خاصة، شات، إرسال موقع، فويس، وسفر بين المدن.">
+  <meta name="theme-color" content="#0bbf72">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/alogo-app-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:title" content="AloGo — Smart Travel">
+  <meta property="og:description" content="Smart mobility for riders, drivers and pickup owners.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.alogo.online/">
+  <link rel="canonical" href="https://www.alogo.online/">
+  <link rel="alternate" hreflang="ar" href="https://www.alogo.online/?lang=ar">
+  <link rel="alternate" hreflang="en" href="https://www.alogo.online/?lang=en">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">تجاوز إلى المحتوى</a>
+
+  <div class="ambient" aria-hidden="true">
+    <span class="glow glow-a"></span><span class="glow glow-b"></span><span class="glow glow-c"></span>
+    <svg class="routes routes-one" viewBox="0 0 1200 720" preserveAspectRatio="none">
+      <path d="M20 520 C180 380 280 680 440 470 C610 250 760 430 905 270 C1040 120 1130 190 1190 90" />
+      <path d="M80 110 C250 230 350 70 510 220 C670 370 780 150 960 250 C1080 315 1165 280 1210 210" />
+    </svg>
+    <span class="route-dot dot-a"></span><span class="route-dot dot-b"></span><span class="route-dot dot-c"></span>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="AloGo home">
+        <span class="brand-mark"><img src="assets/alogo-app-icon.png" alt=""></span>
+        <span class="brand-word" aria-label="AloGo"><strong>Alo</strong><em>Go</em></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#features" data-i18n="nav_features">المزايا</a>
+        <a href="#riders" data-i18n="nav_riders">للركاب</a>
+        <a href="#drivers" data-i18n="nav_drivers">للسائقين</a>
+        <a href="#pickup" data-i18n="nav_pickup">لنقل الأغراض</a>
+        <a href="#chat" data-i18n="nav_chat">الشات</a>
+        <a href="#support" data-i18n="nav_support">الدعم</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="email-pill" href="mailto:support@alogo.online" aria-label="support@alogo.online">
+          <svg viewBox="0 0 24 24"><path d="M3.7 6.8h16.6v10.4H3.7z"/><path d="m4.1 7.3 7.9 6 7.9-6"/></svg>
+          <span>support@alogo.online</span>
+        </a>
+        <label class="lang-pill">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.4 3.8 5.4 3.8 9s-1.3 6.6-3.8 9M12 3c-2.5 2.4-3.8 5.4-3.8 9s1.3 6.6 3.8 9"/></svg>
+          <select id="lang" aria-label="Language selector">
+            <option value="ar">العربية</option><option value="en">English</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="es">Español</option><option value="tr">Türkçe</option><option value="ro">Română</option>
+          </select>
+        </label>
+        <a class="btn btn-primary nav-cta" href="#download" data-i18n="download_cta">حمّل التطبيق</a>
+        <button class="menu-toggle" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span><span data-i18n="hero_eyebrow">تنقل ذكي، رحلات آمنة، وفرص دخل للسائقين.</span></div>
+          <h1 data-i18n-html="hero_title">تحرّك بذكاء مع <span>AloGo</span></h1>
+          <p class="lead" data-i18n="hero_lead">AloGo يجمع الخريطة المباشرة، طلب الرحلات الخاصة، السفر داخل المدن وبين المدن، الدردشة، إرسال الموقع، تسجيل الفويس، وخدمة بيك أب لنقل الأغراض في تجربة واحدة أنيقة وآمنة.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#download"><svg viewBox="0 0 24 24"><path d="M12 3v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg><span data-i18n="download_cta">حمّل التطبيق</span></a>
+            <a class="btn btn-ghost" href="#support"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 16 0v5a3 3 0 0 1-3 3h-2"/><path d="M7 14h2v4H7zM15 14h2v4h-2z"/></svg><span data-i18n="support_cta">تواصل مع الدعم</span></a>
+          </div>
+          <div class="trust-row">
+            <span><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg><b data-i18n="trust_easy">سهل الاستخدام</b></span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.4 8-8 9-4.6-1-8-4-8-9V6z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg><b data-i18n="trust_private">خصوصية وأمان</b></span>
+            <span><svg viewBox="0 0 24 24"><path d="M4 19c4-6 12-6 16-12"/><path d="M6 19a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM22 7a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/></svg><b data-i18n="trust_map">خريطة مباشرة</b></span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="orbit-ring"></div>
+          <div class="phone premium-phone" aria-label="AloGo app preview">
+            <div class="phone-topbar">
+              <button class="mini-btn" aria-label="menu"><span></span><span></span><span></span></button>
+              <div class="phone-logo"><strong>Alo</strong><em>Go</em></div>
+              <div class="avatar">A</div>
+              <div class="notch"></div>
+            </div>
+            <div class="phone-status">
+              <div><b>6</b><span data-i18n="phone_on_map">على الخريطة</span></div>
+              <div><b>23</b><span data-i18n="phone_available">متاح</span></div>
+              <div><b>2</b><span data-i18n="phone_offline">غير متصل</span></div>
+              <button class="near"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-i18n="phone_near">قريب مني</span></button>
+              <button class="all"><svg viewBox="0 0 24 24"><path d="M5 17h14l-1-5H6z"/><path d="M7 17v2M17 17v2M8 12l1-4h6l1 4"/></svg><span data-i18n="phone_all">الكل</span></button>
+            </div>
+            <div class="phone-map">
+              <div class="street s1"></div><div class="street s2"></div><div class="street s3"></div><div class="street s4"></div><div class="street s5"></div>
+              <div class="park-label" data-i18n="phone_park">حديقة الزهراء</div>
+              <div class="street-label" data-i18n="phone_street">شارع الاستقلال</div>
+              <span class="user-dot"></span>
+              <span class="mini-car car-a"><img src="assets/vehicle-car.png" alt=""></span>
+              <span class="mini-car car-b"><img src="assets/vehicle-car.png" alt=""></span>
+              <span class="mini-car car-c"><img src="assets/vehicle-vip.png" alt=""></span>
+              <span class="mini-car car-d"><img src="assets/vehicle-pickup.png" alt=""></span>
+              <button class="map-control target"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></button>
+              <button class="map-control nav"><svg viewBox="0 0 24 24"><path d="m4 12 16-8-7 16-2-7z"/></svg></button>
+            </div>
+            <div class="sheet">
+              <div class="handle"></div>
+              <div class="sheet-head"><span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg><b data-i18n="phone_info">معلومات</b></span><h3 data-i18n="phone_choose">اختر نوع الرحلة</h3></div>
+              <div class="ride-card selected"><img src="assets/vehicle-car.png" alt=""><div><h4 data-i18n="ride_car">سيارة</h4><p data-i18n="ride_car_desc">رحلات يومية سهلة ومريحة وآمنة</p></div><span class="check">✓</span></div>
+              <div class="ride-card"><img src="assets/vehicle-vip.png" alt=""><div><h4 data-i18n="ride_vip">سيارة VIP</h4><p data-i18n="ride_vip_desc">تجربة مميزة وراحة أعلى</p></div><span class="radio"></span></div>
+              <div class="ride-card"><img src="assets/vehicle-van.png" alt=""><div><h4 data-i18n="ride_van">فان</h4><p data-i18n="ride_van_desc">مناسب للمجموعات وسفر مريح</p></div><span class="radio"></span></div>
+              <div class="ride-card"><img src="assets/vehicle-pickup.png" alt=""><div><h4 data-i18n="ride_pickup">بيك أب للنقل</h4><p data-i18n="ride_pickup_desc">نقل أغراض وطرود بسرعة</p></div><span class="radio"></span></div>
+              <button class="confirm" data-i18n="phone_confirm">تأكيد الاختيار</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features section-pad-sm">
+      <div class="container">
+        <div class="section-head reveal"><p data-i18n="features_kicker">كل ميزة لها وظيفة واضحة</p><h2 data-i18n="features_title">ماذا يفعل AloGo؟</h2><span data-i18n="features_text">تطبيق واحد للركاب، السائقين، أصحاب البيك أب، الدردشة، الموقع، الفويس، والسفر داخل المدن وبين المدن.</span></div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><h3 data-i18n="f_map_t">الخريطة المباشرة</h3><p data-i18n="f_map_d">اعرض المركبات والخدمات القريبة على خريطة واضحة وسهلة الفهم.</p></article>
+          <article class="feature-card reveal"><svg viewBox="0 0 24 24"><path d="M4 6h16v10H8l-4 4z"/><path d="M8 10h8M8 13h5"/></svg><h3 data-i18n="f_chat_t">الدردشة داخل التطبيق</h3><p data-i18n="f_chat_d">اكتب رسائل، أرسل موقعك، أو سجّل فويس قبل وأثناء الخدمة.</p></article>
+          <article class="feature-card reveal"><svg viewBox="0 0 24 24"><path d="M5 17h14l-1-5H6z"/><path d="M7 17v2M17 17v2M8 12l1-4h6l1 4"/></svg><h3 data-i18n="f_rides_t">طلب رحلة خاصة</h3><p data-i18n="f_rides_d">اختر نوع الرحلة وانطلق داخل المدينة أو بين المدن بوضوح.</p></article>
+          <article class="feature-card reveal"><svg viewBox="0 0 24 24"><path d="M4 18V8h11v10"/><path d="M15 12h3l2 3v3h-5z"/><circle cx="8" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg><h3 data-i18n="f_pick_t">بيك أب لنقل الأغراض</h3><p data-i18n="f_pick_d">انقل أغراضك، طرودك، أو مشترياتك مع أصحاب بيك أب قريبين.</p></article>
+          <article class="feature-card reveal"><svg viewBox="0 0 24 24"><path d="M12 3 20 7v10l-8 4-8-4V7z"/><path d="M8.5 12.2 11 14.7l5-5.4"/></svg><h3 data-i18n="f_safety_t">خصوصية وأمان</h3><p data-i18n="f_safety_d">تجربة منظمة مع تواصل داخل التطبيق ومعلومات واضحة.</p></article>
+          <article class="feature-card reveal"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.8 2.8 4 5.8 4 9s-1.2 6.2-4 9M12 3c-2.8 2.8-4 5.8-4 9s1.2 6.2 4 9"/></svg><h3 data-i18n="f_lang_t">تعدد اللغات</h3><p data-i18n="f_lang_d">واجهة تتغير حسب اللغة لدعم جمهور عالمي.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="audience section-pad-sm">
+      <div class="container audience-grid">
+        <article id="riders" class="aud-card reveal"><span class="tag" data-i18n="riders_tag">للركاب</span><h2 data-i18n="riders_title">اطلب رحلتك بثقة</h2><p data-i18n="riders_text">شاهد الخدمات القريبة، اختر نوع الرحلة، تواصل داخل التطبيق، وأكمل رحلتك داخل المدينة أو بين المدن بتجربة واضحة وسهلة.</p><ul><li data-i18n="riders_l1">رحلات يومية أو خاصة.</li><li data-i18n="riders_l2">خريطة مباشرة لمعرفة الحركة حولك.</li><li data-i18n="riders_l3">دردشة آمنة مع السائق.</li></ul></article>
+        <article id="drivers" class="aud-card dark reveal"><span class="tag" data-i18n="drivers_tag">للسائقين</span><h2 data-i18n="drivers_title">لديك سيارة؟ استقبل رحلات واكسب</h2><p data-i18n="drivers_text">السائقون الذين لديهم سيارات يمكنهم الظهور على الخريطة، استقبال طلبات الرحلات، إدارة وقتهم، وبناء مصدر دخل من خلال خدمة احترافية.</p><ul><li data-i18n="drivers_l1">ظهور مباشر للسائقين المتاحين.</li><li data-i18n="drivers_l2">طلبات منظمة وواضحة.</li><li data-i18n="drivers_l3">تواصل داخل التطبيق قبل الرحلة.</li></ul></article>
+        <article id="pickup" class="aud-card reveal"><span class="tag" data-i18n="pickup_tag">لأصحاب البيك أب</span><h2 data-i18n="pickup_title">حوّل سيارتك إلى خدمة نقل أغراض</h2><p data-i18n="pickup_text">استقبل طلبات نقل الأغراض والطرود والمشتريات مع خريطة مباشرة وتفاصيل واضحة لكل طلب.</p><ul><li data-i18n="pickup_l1">نقل طرود وأغراض منزلية.</li><li data-i18n="pickup_l2">طلبات قريبة حسب الموقع.</li><li data-i18n="pickup_l3">خدمة مناسبة للمدن والحركة اليومية.</li></ul></article>
+      </div>
+    </section>
+
+    <section id="chat" class="chat-section section-pad-sm">
+      <div class="container chat-grid">
+        <div class="chat-copy reveal">
+          <p class="kicker" data-i18n="chat_kicker">تواصل ذكي داخل التطبيق</p>
+          <h2 data-i18n="chat_title">الشات ليس مجرد رسائل</h2>
+          <p data-i18n="chat_text">داخل AloGo يستطيع الراكب أو السائق الكتابة، إرسال موقعه مباشرة، وتسجيل رسالة صوتية قصيرة عند الحاجة. هذا يجعل الرحلة أو نقل الأغراض أوضح وأسرع وأكثر أمانًا.</p>
+          <div class="chat-points"><span data-i18n="chat_p1">كتابة رسائل قبل وأثناء الخدمة.</span><span data-i18n="chat_p2">إرسال موقع الالتقاء أو التسليم.</span><span data-i18n="chat_p3">تسجيل فويس لتوضيح التفاصيل بسرعة.</span></div>
+        </div>
+        <div class="chat-phone reveal delay-1">
+          <div class="chat-head"><b data-i18n="chat_mock_title">محادثة AloGo</b><span>online</span></div>
+          <div class="bubble other" data-i18n="chat_b1">أنا عند البوابة الرئيسية.</div>
+          <div class="bubble me"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.2 7-11a7 7 0 1 0-14 0c0 5.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-i18n="chat_location">تم إرسال الموقع</span></div>
+          <div class="voice"><span></span><span></span><span></span><b>0:12</b></div>
+          <div class="composer"><span data-i18n="chat_placeholder">اكتب رسالة...</span><button><svg viewBox="0 0 24 24"><path d="m4 12 16-8-7 16-2-7z"/></svg></button><button><svg viewBox="0 0 24 24"><path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3Z"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps section-pad-sm">
+      <div class="container">
+        <div class="section-head reveal"><p data-i18n="steps_kicker">طريقة عمل بسيطة</p><h2 data-i18n="steps_title">من الطلب إلى الوصول، كل خطوة منظمة</h2><span data-i18n="steps_text">اختر الخدمة، شاهد المتاح حولك، تواصل داخل التطبيق، ثم أكد وانطلق.</span></div>
+        <div class="steps-grid">
+          <article><b>01</b><h3 data-i18n="step1_t">اختر الخدمة</h3><p data-i18n="step1_d">سيارة، VIP، فان، أو بيك أب للنقل.</p></article>
+          <article><b>02</b><h3 data-i18n="step2_t">تابع الخريطة</h3><p data-i18n="step2_d">اعرف الخدمات القريبة واتجاه الحركة.</p></article>
+          <article><b>03</b><h3 data-i18n="step3_t">تواصل وأكد</h3><p data-i18n="step3_d">استخدم الشات، إرسال الموقع، أو الفويس ثم أكد.</p></article>
+          <article><b>04</b><h3 data-i18n="step4_t">انطلق بأمان</h3><p data-i18n="step4_d">ابدأ رحلتك أو خدمة النقل بتجربة مرتبة.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download section-pad-sm">
+      <div class="container download-card reveal">
+        <div><p class="kicker" data-i18n="download_kicker">قريبًا في المتاجر</p><h2 data-i18n="download_title">AloGo قادم قريبًا</h2><p data-i18n="download_text">نعمل على تجهيز تجربة تطبيق عالمية للركاب والسائقين وأصحاب البيك أب. أزرار التحميل ستصبح مفعلة عند إطلاق التطبيق.</p></div>
+        <div class="store-wrap">
+          <a class="store disabled" href="#" aria-disabled="true"><small>Coming soon</small><b>App Store</b><span data-i18n="coming_soon">قريبًا — انتظرونا</span></a>
+          <a class="store disabled" href="#" aria-disabled="true"><small>Coming soon</small><b>Google Play</b><span data-i18n="coming_soon">قريبًا — انتظرونا</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="support section-pad-sm">
+      <div class="container support-grid">
+        <div class="support-card reveal"><h2 data-i18n="support_title">الدعم والتواصل</h2><p data-i18n="support_text">للاستفسارات، الشراكات، السائقين، أصحاب البيك أب، أو الدعم العام، تواصل معنا عبر البريد الرسمي أو واتساب.</p><div class="contact-list"><a href="mailto:support@alogo.online">support@alogo.online</a><a href="https://wa.me/40799989477" target="_blank" rel="noopener">+40 799 989 477</a></div></div>
+        <div class="support-card reveal"><h2 data-i18n="languages_title">يتحدث لغتك</h2><p data-i18n="languages_text">يدعم AloGo تغيير اللغة والاتجاه بسلاسة للانتشار عالميًا.</p><div class="lang-chips"><button data-set-lang="ar">العربية</button><button data-set-lang="en">English</button><button data-set-lang="fr">Français</button><button data-set-lang="de">Deutsch</button><button data-set-lang="es">Español</button><button data-set-lang="tr">Türkçe</button><button data-set-lang="ro">Română</button></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#top"><span class="brand-mark"><img src="assets/alogo-app-icon.png" alt=""></span><span class="brand-word"><strong>Alo</strong><em>Go</em></span></a><p data-i18n="footer_about">تطبيق تنقل ذكي للركاب والسائقين وأصحاب البيك أب.</p></div>
+      <div><h3 data-i18n="footer_links">روابط</h3><a href="#features" data-i18n="nav_features">المزايا</a><a href="#riders" data-i18n="nav_riders">للركاب</a><a href="#drivers" data-i18n="nav_drivers">للسائقين</a><a href="#support" data-i18n="nav_support">الدعم</a></div>
+      <div><h3 data-i18n="footer_support">الدعم</h3><a href="mailto:support@alogo.online">support@alogo.online</a><a href="https://wa.me/40799989477" target="_blank" rel="noopener">WhatsApp</a></div>
+      <div><h3 data-i18n="footer_legal">قانوني</h3><a href="privacy.html" data-i18n="privacy">سياسة الخصوصية</a><a href="support.html" data-i18n="terms">الشروط والدعم</a></div>
+    </div>
+    <div class="copyright">© 2026 AloGo. <span data-i18n="rights">جميع الحقوق محفوظة.</span></div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/40799989477" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z"/><path d="M8.6 8.2c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.4l.7 1.7c.1.3.1.5-.1.7l-.4.5c-.1.2-.2.3-.1.5.3.7 1 1.5 1.7 1.9.2.1.4.1.5-.1l.6-.7c.2-.2.4-.3.7-.2l1.7.8c.3.1.4.3.4.6v.6c0 .3-.2.6-.5.8-.5.3-1.3.5-2.4.2-2.8-.7-5.3-3.3-6-6-.3-1 0-1.8.4-2.2Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
