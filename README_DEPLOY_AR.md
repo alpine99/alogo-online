@@ -1,17 +1,11 @@
 # رفع موقع AloGo على GitHub Pages
 
-1. فك ضغط الملف.
-2. ارفع الملفات الموجودة داخل المجلد مباشرة إلى مستودع GitHub، وليس ملف ZIP نفسه.
-3. تأكد أن `index.html` موجود في جذر المستودع.
-4. من GitHub: Settings → Pages → Deploy from a branch → main → /root.
-5. ملف `CNAME` موجود للدومين: `www.alogo.online`.
+1. افتح ملف ZIP وفك الضغط.
+2. ارفع الملفات الموجودة داخل المجلد إلى المستودع مباشرة.
+3. تأكد أن `index.html` ظاهر في جذر المستودع وليس داخل مجلد.
+4. من GitHub: Settings → Pages → Deploy from branch → main → /root.
+5. للدومين في Namecheap:
+   - CNAME: host `www` value `alpine99.github.io`
+   - A records للـ @ إلى عناوين GitHub Pages الرسمية.
 
-## Namecheap DNS
-- CNAME Record: Host `www` → Value `alpine99.github.io`
-- A Records للـ `@` إلى GitHub Pages:
-  - 185.199.108.153
-  - 185.199.109.153
-  - 185.199.110.153
-  - 185.199.111.153
-
-بعد الحفظ انتظر انتشار DNS ثم فعّل Enforce HTTPS من GitHub Pages.
+الدومين داخل الملف: `www.alogo.online`.
