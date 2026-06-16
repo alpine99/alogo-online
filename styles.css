@@ -326,7 +326,7 @@ body{position:relative;background:#f4fff9;}
 .policy-back .btn{color:#073e30;text-decoration:none}
 @media (max-width:520px){.policy-section{padding-top:38px}.policy-card{border-radius:24px;padding:22px}.policy-card p,.policy-card li{font-size:16px;line-height:1.85}.policy-card h2{margin-top:30px}}
 
-/* V45 — SEO-safe AloGo wordmark + RTL-safe phone numbers.
+/* V46 — final SEO-safe AloGo wordmark + RTL-safe phone numbers.
    Keeps the visual brand while exposing one exact text token: AloGo. */
 .brand-text,
 .hero .wordmark,
